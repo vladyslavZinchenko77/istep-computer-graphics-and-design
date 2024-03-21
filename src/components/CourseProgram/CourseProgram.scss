@@ -1,0 +1,29 @@
+
+.program__wrap{
+    background-color: #000000;
+    border-radius: 16px;
+    .program__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 120px;
+        }
+        .program__selects{
+            padding: 96px 58px 0 58px;
+            .program__selects-select--item{
+                padding: 15px 0 15px 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 1.5;
+                color: #FFFFFF;
+                border-bottom: 1px solid rgba(221, 224, 235, 0.25);
+
+            }
+        }
+}

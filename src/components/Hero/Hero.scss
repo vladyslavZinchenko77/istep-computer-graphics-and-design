@@ -1,0 +1,139 @@
+.hero__gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+        @media screen and (max-width: 798px) {
+            width: 100%;
+            height: auto;
+            
+            }
+        }
+.hero{
+    display:flex;
+    
+    @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+    }
+    
+    .hero__left{
+        display:flex;
+        flex-direction: column;
+        padding-top: 236px;
+        
+        @media screen and (max-width: 1199px) {
+            align-items: center;
+            margin: 0 auto;
+        }
+       
+        
+        .hero__left-title{
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 62px;
+            line-height: 1.2;
+            color: #FFFFFF;
+            @media screen and (max-width: 1200px) {
+                text-align: center;
+                font-size: 32px;
+            }
+            @media screen and (max-width: 768px) {
+                align-items: center;
+                font-size: 32px;
+                }
+        }
+        .hero__left-text{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.45;
+            color: #A8B3C1;
+            margin-top: 24px;
+            @media screen and (max-width: 768px) {
+                text-align: center;
+                }
+        }
+    }
+    .hero__noparralax{
+        @media screen and (max-width: 977px) {
+            display: block;
+            width: 100%;
+             
+             }
+             @media screen and (min-width: 978px) {
+                display: none;
+                width: 100%;
+                 
+                 }
+    }
+    .hero__right{ 
+        @media screen and (max-width: 978px) {
+           display: none;
+            
+            }
+        width: 700px;
+        height: 700px;
+        margin-top: 26px;
+        position: relative;
+        display: flex;
+        @media screen and (max-width: 1199px) {
+            margin: 0 auto;
+            
+            }
+        .hero__right-background{
+            @media screen and (max-width: 798px) {
+                width: 100%;
+                height: auto;
+                
+                }
+        }
+   
+        .hero__right-background{
+            @media screen and (max-width: 798px) {
+                width: 100%;
+                height: auto;
+                
+                }
+        }
+        
+        .hero__right-men{
+            z-index: 3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                height: auto;
+                
+             }
+            
+        }
+        .hero__right-pencil{
+            position: absolute;
+            top: 17%;
+            left: 21%;
+        }
+        .hero__right-photoshop{
+            position: absolute;
+            bottom: 15%;
+            left: 42%;
+            z-index: 4;
+        }
+        .hero__right-figma{
+            position: absolute;
+            top: 10%;
+            left: 64%;
+            z-index: 1;
+        }
+        .hero__right-color{
+            position: absolute;
+            right: 2%;
+            bottom: 24%;
+            
+        }
+    }
+}

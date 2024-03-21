@@ -1,0 +1,68 @@
+.team__section{
+
+    @media screen and (max-width: 768px) {
+       display: none;
+    }
+    .team__text-wrapper{
+        padding: 0 100px 0 100px;
+        .team__title{
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #1D1D1F;
+        text-align: center;
+        }
+        
+        .team__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.45;
+        text-align: center;
+        color: #747478;
+        margin-top: 24px;
+        
+        }
+    }
+    .team__photo-wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 96px;
+        @media screen and (max-width: 1300px) {
+            flex-direction: column;
+        }
+        .team__photo-left{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            @media screen and (max-width: 1200px) {
+                max-width: 100%;
+            }
+            .team__photo-left--small{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 24px;
+            }
+        }
+        .team__photo-right{
+            display: flex;
+            flex-direction: column;
+            
+            @media screen and (max-width: 1300px) {
+                max-width: 100%;
+                margin-top: 24px;
+            }
+            .team__photo-right--small{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 24px;
+               
+            }
+        }
+    }
+}

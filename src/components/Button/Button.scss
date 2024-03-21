@@ -1,0 +1,21 @@
+.btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #4744C9;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 13px 32px;
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover{
+        transition: 0.4s;
+        transform:  scale(1.1);
+        
+    }
+}
